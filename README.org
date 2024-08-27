@@ -1,4 +1,6 @@
 * Background
+
+#+begin_quote
 A win in a slot game normally requires 3 of a kind or more. The more identical symbols along a line the higher payout.  Winning combinations or so called paylines can be counted diﬀerently. They are normally counted from left to right, and start from the 1st reel. Looking back to the era of physical slot machines the most common ones had 3 reels and you looked at the 3 centered symbols and if they are identical then you have a win.
 
 E.g.
@@ -7,7 +9,7 @@ E.g.
 : KKK
 : QQJ
 
-However moving online the opportunities for more reels and rows opened up, and with that came also new opportunities to define winning combinations. One setup of paylines that we use from time to time is "ELK Ways" or so called connecting paylines. Imagine a neuron net or a tree structure, meaning that a symbol on one reel has to connect with/reach a symbol on the next reel to the right to continue the payline. The payline ends when there are no more connections. E.g.
+However moving online the opportunities for more reels and rows opened up, and with that came also new opportunities to define winning combinations. One setup of paylines that we use from time to time is connecting paylines. Imagine a neuron net or a tree structure, meaning that a symbol on one reel has to connect with/reach a symbol on the next reel to the right to continue the payline. The payline ends when there are no more connections. E.g.
 
 : AKK
 : KQQ
@@ -19,7 +21,13 @@ The K in the lower right doesn't connect with the K symbols on reel 1 and 2 and 
 : KKKAJ
 : AAKJK
 
-Using ELK Ways a game with 3 reels and 3 rows result in 17 possible paylines. A game with 5 reels and 4 rows ends up with 178 paylines.
+A game with 3 reels and 3 rows results in 17 possible paylines.  A game with 5 reels and 4 rows ends up with 178 paylines.
+#+end_quote
 
 * Assignment
-Create a function that can take any combination of number of reels and rows and identifies and returns a collection containing the paylines.  The function is expected to be implemented using Go.  So please complete this function func *elkWays (rows, reels int) [][] int*
+
+#+begin_quote
+Create a function that can take any combination of number of reels and rows and identifies and returns a collection containing the paylines.  The function is expected to be implemented using Go.  So please complete this function
+
+*func elkWays (rows, reels int) [][] int*
+#+end_quote
